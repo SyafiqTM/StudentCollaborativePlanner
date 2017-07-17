@@ -1,5 +1,5 @@
-# TaskOrganizer
-<p>Task Organizer is a mobile application that manage students assignments, projects, revision and exams. It offers a concept and benefits that educate students to manage their time well and arrange their schedule ahead without taking liablility of late submissions. A specialty of this application is that it make use of calendar view as a meaningful representation of important dates for Academic Calendars and Malaysia’s upcoming event. The project was derived from students problem such as difficulties in balancing outdoor activities and academic submission.There are several interactive functions that can be found while using this application.</p>
+# Student Collaborative Planner
+<p>Student Collaborative Planner is a mobile application that manage students assignments, projects, revision and exams. It offers a concept and benefits that educate students to manage their time well and arrange their schedule ahead without taking liablility of late submissions. A specialty of this application is that it make use of calendar view as a meaningful representation of important dates for Academic Calendars and Malaysia’s upcoming event. The project was derived from students problem such as difficulties in balancing outdoor activities and academic submission.There are several interactive functions that can be found while using this application.</p>
 
 Those includes : <br>
 •	Tracking submission dates and setting up reminder <br>
