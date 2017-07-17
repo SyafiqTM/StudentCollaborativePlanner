@@ -1,0 +1,38 @@
+<resources>
+    <string name="app_name">Student Collaborative Planner</string>
+    <string name="short_name">SIP App</string>
+    <string name="update">Current updated Version 2.0 Bugs fixed when create an event on a date calendar</string>
+    <string name="open">Open</string> <!--drawer open-->
+    <string name="close">Close</string> <!--drawer close-->
+    <string name="facebook_app_id">1714953195501114</string>
+    <string name="fb_login_protocol_scheme">fb1714953195501114</string>
+    <string name="place_holder">Place holder</string>
+    <string name="blog_title">How to develop Android CardView</string>
+    <string name="blog_content">We will go into details to learn how to develop android CardView application and other important concepts that are necessary in understanding the tutorial </string>
+    <string name="read_more">Read more</string>
+    <string name="story">After a lot of study about how to study, I devised a plan, which was refined over time according to the results.  Now here is a refined plan, in which are inherent many researches and experiences I have come across during or after that 2 year study period. I have always been interested in education, human evolution and psychology.
+When you want to be confident about some topic or field of study first read about "How this field came into existence, its origin and the input and output to world from this i.e main purpose", end results, its uses, how it works and why you are into it and then dive in by following below tips.</string>
+
+    <string-array name="days">
+        <item>Sunday</item>
+        <item>Monday</item>
+        <item>Tuesday</item>
+        <item>Wednesday</item>
+        <item>Thursday</item>
+        <item>Friday</item>
+        <item>Saturday</item>
+    </string-array>
+
+    <string-array name="task">
+        <item>Assignment</item>
+        <item>Exam</item>
+        <item>Revision</item>
+    </string-array>
+
+    <string-array name="task_array">
+        <item>Tasks</item>
+        <item>Assignment</item>
+        <item>Revision</item>
+        <item>Exam</item>
+    </string-array>
+</resources>

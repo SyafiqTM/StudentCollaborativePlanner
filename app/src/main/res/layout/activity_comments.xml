@@ -1,0 +1,154 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical">
+
+    <ScrollView
+        android:id="@+id/scroll"
+        android:layout_width="fill_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_weight="1">
+
+        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:id="@+id/linear"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/white"
+                android:padding="15dp"
+                android:elevation="20dp">
+
+                <TextView
+                    android:id="@+id/titleBlog"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/blog_content"
+                    android:textSize="16sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/usernameBlog"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/titleBlog"
+                    android:layout_marginLeft="0dp"
+                    android:layout_marginTop="16dp"
+                    android:text="Henry"
+                    android:textSize="14sp" />
+
+                <ImageView
+                    android:id="@+id/comment"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/titleBlog"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="16dp"
+                    android:layout_toEndOf="@+id/usernameBlog"
+                    android:layout_toRightOf="@+id/usernameBlog"
+                    android:contentDescription="@string/place_holder"
+                    android:src="@drawable/ic_action_edit" />
+
+                <TextView
+                    android:id="@+id/comment_number"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/titleBlog"
+                    android:layout_marginLeft="48dp"
+                    android:layout_marginTop="16dp"
+                    android:layout_toEndOf="@+id/usernameBlog"
+                    android:layout_toRightOf="@+id/usernameBlog"
+                    android:text="21 Comments"
+                    android:textSize="14sp" />
+
+                <TextView
+                    android:id="@+id/blog_content"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/usernameBlog"
+                    android:layout_marginTop="24dp"
+                    android:text="@string/blog_content"
+                    android:textSize="13sp" />
+
+                <TextView
+                    android:text="Date"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignTop="@+id/comment_number"
+                    android:layout_toEndOf="@+id/comment_number"
+                    android:layout_marginStart="29dp"
+                    android:id="@+id/blog_date" />
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:background="@drawable/edittext_border_bottom"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:padding="15dp">
+
+                <TextView
+                    android:text="Comments Section"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/textView3"
+                    android:textColor="@color/black" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="265dp"
+                android:background="@color/white">
+
+                <ListView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:id="@+id/list_comment"
+                    android:dividerHeight="0dp" />
+            </RelativeLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+
+    <LinearLayout
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="@color/white">
+
+        <EditText
+            android:drawableRight="@android:drawable/ic_menu_send"
+            android:id="@+id/editMessage"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:inputType="textMultiLine|textCapSentences"
+            android:gravity="left|center"
+            android:maxLines="5"
+            android:layout_weight="5"
+            android:scrollHorizontally="false"
+            android:background="@drawable/edittext_modified"
+            android:padding="10dp"
+            android:hint="Write comment..."
+            android:textSize="14sp" />
+
+        <!--<Button
+            android:id="@+id/buttonSend"
+            android:text="send"
+            android:gravity="center"
+            android:layout_gravity= "center_vertical|center_horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/darkCyan"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textSize="14sp"
+            android:onClick="SendData" />-->
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:fitsSystemWindows="true">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="20dp">
+
+
+                <EditText
+                    android:drawablePadding="10dp"
+                    android:id="@+id/etRegisterUsername"
+                    android:layout_width="match_parent"
+                    android:layout_height="45dp"
+                    android:layout_marginTop="15sp"
+                    android:background="@drawable/edittext_modified"
+                    android:drawableLeft="@mipmap/ic_person_black_24dp"
+                    android:ems="10"
+                    android:hint="Username"
+                    android:inputType="textPersonName"
+                    android:padding="15dp"
+                    android:fontFamily="sans-serif"
+                    android:textSize="14sp" />
+
+
+                <EditText
+                    android:drawablePadding="10dp"
+                    android:id="@+id/etRegisterPassword"
+                    android:layout_width="match_parent"
+                    android:layout_height="45dp"
+                    android:layout_marginTop="15sp"
+                    android:background="@drawable/edittext_modified"
+                    android:drawableLeft="@mipmap/ic_lock_black_24dp"
+                    android:ems="10"
+                    android:hint="Password"
+                    android:inputType="textPassword"
+                    android:padding="15dp"
+                    android:fontFamily="sans-serif"
+                    android:textSize="14sp" />
+
+
+                <!--  Student Email -->
+                <EditText
+                    android:layout_marginTop="20dp"
+                    android:drawablePadding="10dp"
+                    android:background="@drawable/edittext_modified"
+                    android:drawableLeft="@mipmap/ic_email_black_24dp"
+                    android:id="@+id/etRegisterEmail"
+                    android:padding="15dp"
+                    android:layout_height="45dp"
+                    android:layout_width="match_parent"
+                    android:ems="10"
+                    android:hint="Email Address"
+                    android:inputType="textEmailAddress"
+                    android:textSize="14sp" />
+
+
+                <EditText
+                    android:drawablePadding="10dp"
+                    android:layout_marginTop="15sp"
+                    android:id="@+id/etRegisterPhone"
+                    android:layout_width="match_parent"
+                    android:layout_height="45dp"
+                    android:background="@drawable/edittext_modified"
+                    android:drawableLeft="@mipmap/ic_phone_black_24dp"
+                    android:ems="10"
+                    android:hint="Phone No"
+                    android:inputType="phone"
+                    android:padding="15dp"
+                    android:textSize="14sp" />
+
+
+                <EditText
+                    android:focusableInTouchMode="false"
+                    android:drawablePadding="10dp"
+                    android:id="@+id/etRegisterProgramme"
+                    android:layout_width="match_parent"
+                    android:layout_height="45dp"
+                    android:layout_marginTop="15sp"
+                    android:background="@drawable/edittext_modified"
+                    android:drawableLeft="@mipmap/ic_school_black_24dp"
+                    android:ems="10"
+                    android:hint="Programme"
+                    android:inputType="text"
+                    android:padding="15dp"
+                    android:fontFamily="sans-serif"
+                    android:textSize="14sp" />
+
+                <EditText
+                    android:focusableInTouchMode="false"
+                    android:drawablePadding="10dp"
+                    android:id="@+id/etRegisterSession"
+                    android:layout_width="match_parent"
+                    android:layout_height="45dp"
+                    android:layout_marginTop="15sp"
+                    android:background="@drawable/edittext_modified"
+                    android:drawableLeft="@mipmap/ic_date_range_black_24dp"
+                    android:ems="10"
+                    android:hint="Session"
+                    android:inputType="text"
+                    android:padding="15dp"
+                    android:fontFamily="sans-serif"
+                    android:textSize="14sp" />
+
+
+
+                <!--  Sign Up Button -->
+                <Button
+                    android:background="@color/btn_login_bg"
+                    android:textColor="@color/btn_login"
+                    android:layout_marginTop="20dp"
+                    android:text="Create Account"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/signUp" />
+
+                <!--  Sign In TextView -->
+                <TextView
+                    android:id="@+id/signIn"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="24dp"
+                    android:text="Already a member? Sign In"
+                    android:gravity="center"
+                    android:textSize="16sp"
+                    android:layout_marginTop="20dp"
+                    android:paddingTop="3dp" />
+
+            </LinearLayout>
+        </ScrollView>
+    </RelativeLayout>
+</RelativeLayout>

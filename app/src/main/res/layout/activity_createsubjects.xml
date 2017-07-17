@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.DrawerLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/drawerLayout">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:padding="20dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:orientation="vertical"
+                android:elevation="5dp">
+
+
+                <TextView
+                    android:text="Subject's Name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/tvSubject_name"/>
+
+                <EditText
+                    android:background="@drawable/edittext_modified"
+                    android:padding="15dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:inputType="textPersonName"
+                    android:textSize="14sp"
+                    android:ems="10"
+                    android:id="@+id/etSubject_name"/>
+
+                <TextView
+                    android:text="Subject's Code"
+                    android:layout_marginTop="15sp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/tvSubject_code"/>
+
+                <EditText
+                    android:background="@drawable/edittext_modified"
+                    android:padding="15dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:inputType="textPersonName"
+                    android:textSize="14sp"
+                    android:ems="10"
+                    android:id="@+id/etSubject_code" />
+
+                <TextView
+                    android:text="Group"
+                    android:layout_marginTop="15sp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/tvSubject_group"/>
+
+                <EditText
+                    android:background="@drawable/edittext_modified"
+                    android:padding="15dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:inputType="textPersonName"
+                    android:textSize="14sp"
+                    android:ems="10"
+                    android:id="@+id/etSubject_group" />
+
+                <TextView
+                    android:text="Classroom"
+                    android:layout_marginTop="15sp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/tvSubject_class"/>
+
+                <EditText
+                    android:background="@drawable/edittext_modified"
+                    android:padding="15dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:inputType="textPersonName"
+                    android:textSize="14sp"
+                    android:ems="10"
+                    android:id="@+id/etSubject_class" />
+
+                <TextView
+                    android:text="Lecturer's Name"
+                    android:layout_marginTop="15sp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/tvLecturer_name"/>
+
+                <EditText
+                    android:background="@drawable/edittext_modified"
+                    android:padding="15dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:inputType="textPersonName"
+                    android:textSize="14sp"
+                    android:ems="10"
+                    android:hint="optional"
+                    android:id="@+id/etLecturer_name" />
+
+                <TextView
+                    android:text="Lecturer's Contact"
+                    android:layout_marginTop="15sp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/tvLecturer_contact"/>
+
+                <EditText
+                    android:background="@drawable/edittext_modified"
+                    android:padding="15dp"
+                    android:hint="optional"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:inputType="textPersonName"
+                    android:textSize="14sp"
+                    android:ems="10"
+                    android:id="@+id/etLecturer_contact" />
+
+
+
+
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+    <android.support.design.widget.NavigationView
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        app:menu="@menu/drawer_menu"
+        android:layout_gravity="start"
+        app:headerLayout="@layout/drawer_header">
+
+    </android.support.design.widget.NavigationView>
+</android.support.v4.widget.DrawerLayout>

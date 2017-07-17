@@ -1,0 +1,58 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">#008080</item>
+        <item name="colorPrimaryDark">@color/darkCyan</item>
+        <item name="colorAccent">#3f51b5</item>
+        <item name="actionBarStyle">@style/MyActionBar</item>
+    </style>
+
+    <!-- Modify application theme. -->
+    <style name="HiddenTitle" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="windowNoTitle">true</item>
+        <item name="colorPrimary">#008080</item>
+        <item name="colorPrimaryDark">@color/darkCyan</item>
+        <item name="colorAccent">#3f51b5</item>
+    </style>
+
+    <!-- Modify application theme. -->
+    <style name="AppTheme3" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">#008080</item>
+        <item name="colorPrimaryDark">@color/darkCyan</item>
+        <item name="colorAccent">@color/blue</item>
+        <item name="actionBarStyle">@style/MyActionBar</item>
+    </style>
+
+    <style name="MyActionBar" parent="@style/Widget.AppCompat.ActionBar.Solid">
+        <item name="titleTextStyle">@style/MyTitleTextStyle</item>
+    </style>
+
+    <style name="MyTitleTextStyle" parent="@style/TextAppearance.AppCompat.Widget.ActionBar.Title">
+        <item name="android:textSize">18sp</item>
+    </style>
+
+
+
+
+    <style name="Toolbar.TitleText" parent="TextAppearance.Widget.AppCompat.Toolbar.Title">
+        <item name="android:textSize">18sp</item>
+    </style>
+
+
+
+
+    <style name="Widget.MyApp.ActionBar" parent="@android:style/Widget.ActionBar">
+        <item name="android:background">@android:color/black</item>
+    </style>
+
+    <style name="menu_labels_style">
+        <item name="android:background">@drawable/fab_label_background</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+
+</resources>

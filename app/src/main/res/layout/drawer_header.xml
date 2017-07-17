@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:elevation="1dp"
+    android:background="#008080"
+    android:padding="20dp"
+    android:id="@+id/header"
+    android:layout_height="130dp"
+    style="?android:attr/borderlessButtonStyle">
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:src="@drawable/ic_launcher"
+            android:id="@+id/profile_image"
+            android:layout_height="80dp"
+            android:layout_width="50dp" />
+
+        <TextView
+        android:layout_marginStart="20dp"
+        android:layout_gravity="center"
+        android:text="Syafiq.zahir@yahoo.com"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/user_email_header"
+        android:padding="10dp"
+        android:textColor="@android:color/white"
+        android:layout_centerVertical="true"
+        android:layout_alignParentEnd="true"/>
+
+
+    </TableRow>
+
+</RelativeLayout>

@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.DrawerLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/drawerTask">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:padding="20dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:orientation="vertical"
+                android:focusable="true"
+                android:focusableInTouchMode="true"
+                android:elevation="5dp">
+
+
+                <TextView
+                    android:text="Choose Subject"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/extend_edit_task_tvChoose"
+                    android:textColor="@color/caldroid_black" />
+
+                <EditText
+                    android:background="@drawable/edittext_modified"
+                    android:padding="15dp"
+                    android:layout_width="match_parent"
+                    android:inputType="textPersonName"
+                    android:textSize="14sp"
+                    android:ems="10"
+                    android:id="@+id/extend_edit_task_etChoose"
+                    android:focusableInTouchMode="false"
+                    android:drawableRight="@drawable/rsz_4ic_dropdown"
+                    android:layout_height="45dp" />
+
+                <TextView
+                    android:text="Type of Task"
+                    android:layout_marginTop="15sp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/extend_edit_task_tvType"
+                    android:textColor="@color/caldroid_black" />
+
+                <EditText
+
+                    android:background="@drawable/edittext_modified"
+                    android:padding="15dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="45dp"
+                    android:inputType="textPersonName"
+                    android:textSize="14sp"
+                    android:ems="10"
+                    android:focusableInTouchMode="false"
+                    android:drawableRight="@drawable/rsz_4ic_dropdown"
+                    android:id="@+id/extend_edit_task_etType" />
+
+                <TextView
+                    android:text="Title"
+                    android:layout_marginTop="15sp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/extend_edit_task_tvTaskTitle"
+                    android:textColor="@color/black" />
+
+                <EditText
+                    android:background="@drawable/edittext_modified"
+                    android:padding="15dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="45dp"
+                    android:inputType="textPersonName"
+                    android:textSize="14sp"
+
+                    android:ems="10"
+                    android:id="@+id/extend_edit_task_etTaskTitle" />
+
+                <TextView
+                    android:text="Description"
+                    android:layout_marginTop="15sp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/extend_edit_task_tvTaskDesc"
+                    android:textColor="@color/black" />
+
+                <EditText
+                    android:background="@drawable/edittext_modified"
+                    android:padding="15dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="45dp"
+                    android:inputType="textPersonName"
+                    android:textSize="14sp"
+                    android:ems="10"
+                    android:id="@+id/extend_edit_task_etTaskDesc" />
+
+                <TextView
+                    android:text="Due Date"
+                    android:layout_marginTop="15sp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/extend_edit_task_tvDate"
+                    android:textColor="@color/caldroid_black" />
+
+                <EditText
+                    android:background="@drawable/edittext_modified"
+                    android:padding="15dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="45dp"
+                    android:inputType="textPersonName"
+                    android:textSize="14sp"
+                    android:ems="10"
+                    android:focusableInTouchMode="false"
+                    android:id="@+id/extend_edit_task_etDate" />
+
+                <TextView
+                    android:text="Due Time"
+                    android:layout_marginTop="15sp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/extend_edit_task_tvTime"
+                    android:textColor="@color/caldroid_black" />
+
+                <EditText
+                    android:background="@drawable/edittext_modified"
+                    android:padding="15dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="45dp"
+                    android:inputType="textPersonName"
+                    android:textSize="14sp"
+                    android:ems="10"
+                    android:focusableInTouchMode="false"
+                    android:id="@+id/extend_edit_task_etTime" />
+
+
+
+
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</android.support.v4.widget.DrawerLayout>
