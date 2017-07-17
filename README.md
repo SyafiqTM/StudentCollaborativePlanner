@@ -9,7 +9,9 @@ Those includes : <br>
 
 This application provide various option in a way that students can manage their time efficiently and task effectively. The system able to raise awareness among students regarding the importance of time and academic relatively.
 
+Screenshot : <br>
 
+<img src="https://github.com/syafiqzahir/TaskOrganizer/blob/master/image/dashboard.jpg" height="600" width="400">
 
 <pre>
 <code>
