@@ -10,8 +10,10 @@ Those includes : <br>
 This application provide various option in a way that students can manage their time efficiently and task effectively. The system able to raise awareness among students regarding the importance of time and academic relatively.
 
 
-<sub><sup>
-Universiti Teknologi Mara Rsearch & Innovation Business Unit License (RIBU)
+
+<pre>
+<code>
+Universiti Teknologi Mara Research & Innovation Business Unit License (RIBU)
 
 Copyright (c) [2016] [Syafiq]
 
@@ -32,4 +34,5 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
-</sup></sub>
+</code>
+</pre>
