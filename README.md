@@ -11,7 +11,7 @@ This application provide various option in a way that students can manage their 
 
 Screenshot : <br>
 
-<img src="https://github.com/syafiqzahir/TaskOrganizer/blob/master/image/dashboard.jpg" height="600" width="400">
+<img src="https://github.com/syafiqzahir/TaskOrganizer/blob/master/image/dashboard.jpg" width="400" style="max-width:100%;">
 
 <pre>
 <code>
